@@ -10,8 +10,8 @@
             "request": "launch",
             "preLaunchTask": "build",
             // If you have changed target frameworks, make sure to update the program path.
-            "program": "${workspaceFolder}/MovieTranscoder/bin/Debug/netcoreapp3.1/MovieTranscoder.dll",
-            "args": [],
+            "program": "${workspaceFolder}/MovieTranscoder/bin/Debug/net5.0/MovieTranscoder.dll",
+            "args": ["Reconcile"],
             "cwd": "${workspaceFolder}/MovieTranscoder",
             // For more information about the 'console' field, see https://aka.ms/VSCode-CS-LaunchJson-Console
             "console": "internalConsole",

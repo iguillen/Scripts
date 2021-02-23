@@ -2,7 +2,7 @@
   "profiles": {
     "MovieTranscoder": {
       "commandName": "Project",
-      "commandLineArgs": "Reconcile"
+      "commandLineArgs": "Transcode"
     }
   }
 }
