@@ -7,7 +7,12 @@ namespace MovieTranscoder
     {
         static int Main(string[] args)
         {
-            return new AppRunner<MovieTranscoder>().Run(args);
+            var appsettings = new AppSettings
+            {
+                IgnoreUnexpectedOperands = true
+            };
+
+            return new AppRunner<MovieTranscoder>(appsettings).Run(args);
         }
     }
 }
